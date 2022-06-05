@@ -10,7 +10,7 @@ screen = Screen()
 #Widget dimension,color and title
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
-screen.title("My Snake Game")
+screen.title("Kelvin Snake Game")
 screen.tracer(0)
 
 #declaring object from the Snake function in  snake module
