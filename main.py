@@ -1,14 +1,22 @@
+#Importation of modules
 from turtle import Screen
 from snake import Snake
 import time
 
+
+#declaring object from the Screen function in  turtle module
 screen = Screen()
+
+#Widget dimension,color and title
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("My Snake Game")
 screen.tracer(0)
 
+#declaring object from the Snake function in  snake module
 snake = Snake()
+
+#declaring object from the Food function in  snake module
 food = Food()
 
 screen.listen()
